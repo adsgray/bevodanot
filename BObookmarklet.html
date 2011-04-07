@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>^NOT Annotation Bookmarklet</title>
+</head>
+<style>
+p.doc {
+	font: helvetica;
+	background-color: white;
+	color: #111111;
+	padding: 2em;
+	border-radius: 1.5em;
+	-moz-border-radius: 1.5em;
+	width: 50em;
+}
+
+body {
+	background-color: #EEEEEE;
+	color: #222222;
+	width: 80em;
+	margin: auto;
+	padding: 3em;
+}
+
+body > p {
+	width: 50em;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+span.bookmarklet {
+	border: groove 5px;
+	border-color: #BBBBBB;
+	padding: 3px;
+	background-color: #CCCCCC;
+}
+
+span#bk {
+	margin: auto;
+}
+
+</style>
+<script src="http://adsgb02usw.s3.amazonaws.com/bevoda/bevodanot.js">
+</script>
+<body>
+
+<span id="bk" class="bookmarklet">
+<a href="javascript:(function() { var elem=document.createElement('script'); elem.setAttribute('src', 'http://adsgb02usw.s3.amazonaws.com/bevoda/bevodanot-min.js?t='+(new Date().getTime())); document.body.appendChild(elem); }())">Bev Oda ^NOT Annotation Bookmarklet</a>
+</span>
+<h1>The Power</h1>
+<p>
+The document editing power embodied in this deceptively simple 
+tool was previously only available to Federal Cabinet Ministers and staff. 
+Now, you can negate any statement on any web page <em>anywhere</em> with
+the simple click of a mouse.
+</p>
+
+<h1>How to use it</h1>
+<ol>
+<li>
+Drag the above link into your browser's bookmark toolbar, or right-click on
+the link and add it as a bookmark.</li>
+<li>Browse to any page on the web.</li>
+<li>Click the bookmark you added in step 1</li>
+<li>Now click anywhere on the page to insert a negating annotation.</li>
+<li>Click on an annotation to remove it.</li>
+</ol>
+
+<h1>Example</h1>
+<p>
+You can try it out on this page. Just click on the link, then choose a spot 
+in the following text to insert a ^NOT.
+</p>
+<p class="doc">
+RECOMMENDATION &mdash; That you sign below to indicate you do approve 
+a contribution of $7,098,758 over four years for the above program.
+</p>
+
+
+<h1>Author</h1>
+<a href="mailto:adsgray@gmail.com">adsgray@gmail.com</a>
+
+</body>
+</html>
